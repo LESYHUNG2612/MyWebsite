@@ -1,0 +1,1146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Nen{
+    width: 100%;
+    height: 3400px;
+    position:relative;
+    top:0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.Nen1{
+    width: 100%;
+    height: 1100px;
+    opacity: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+}
+.Nen2{
+    width: 100%;
+    height: 2300px;
+    opacity: absolute;
+    top:1090px;
+    left: 0px;
+    z-index: 2;
+}
+.Left{
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    display:block;
+    top:0px;
+    left: 0px;
+    z-index: 6;
+}
+.logoLeft{
+    width: 250px;
+    height: 597px;
+    position: fixed;
+    display:block;
+    top:0px;
+    left: 0px;
+    z-index: 7;
+}
+.AnhLogoLeft{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    display:block;
+    top:100px;
+    left: 100px;
+    z-index: 7;
+}
+.MenuLeft{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    display:block;
+    top:230px;
+    left: 100px;
+    z-index: 7;
+}
+.MenuLeft ul li a{
+    color:white;
+    font-size:20px;
+    line-height: 45px;
+}
+
+.Container{
+    width: 960px;
+    height: 619px;
+    position: absolute;
+    display:block;
+    top:0px;
+    left: 320px;
+    z-index: 2;
+}
+.TieuDeContainer0{
+    width: 1100px;
+    height: 500px;
+    position: absolute;
+    top:140px;
+    left: 0px;
+    z-index: 2;
+}
+.TieuDeContainer{
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    display:block;
+    color:white;
+    font-size:40px;
+    top:90px;
+    line-height:60px;
+    left: 0px;
+    z-index: 2;
+}
+.NutContainer{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background:#c57f3b;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    top:330px;
+    left: 20px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+/*--------------------------------------------*/
+.Container1{
+    width:100%;
+    height:700px;
+    position: absolute;
+    top:800px 
+}
+.NenContainer1{
+    width:100%;
+    height:700px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.TieuDeContainer1{
+    width:100%;
+    height:60px;
+    position: absolute;
+    top:40px;
+    left:0px;
+    text-align:center;
+    font-size: 40px;
+    color:white;
+    z-index:5;
+}
+.GachTieuDeContainer1{
+    width:300px;
+    height:4px;
+    position: absolute;
+    top:95px;
+    left:330px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px;
+    animation: LoadTrang 0.4s forwards;
+}
+/* hiá»‡u á»©ng load trang*/
+@-webkit-keyframes LoadTrang{
+    0% {width: 0%;}
+    100% {width: 300px;}
+}
+/*-----------------------------*/
+.Container1Khoi1{
+
+}
+
+.Container1Khoi1Nen{
+    width:500px;
+    height:50px;
+    position: absolute;
+    top:170px;
+    left:20px;
+    z-index:3;
+}
+.Container1Khoi1Hang1{
+    width:400px;
+    height:50px;
+    position: absolute;
+    top:560px;
+    font-size:16px;
+    left:50px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi1Hang2{
+    width:500px;
+    height:50px;
+    position: absolute;
+    top:590px;
+    font-size:20px;
+    left:50px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi1Hang3{
+    width:0px;
+    height:3px;
+    position: absolute;
+    top:620px;
+    left:50px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px;
+    opacity: 0;
+}
+.Container1Khoi1Hang3:hover{
+    width: 135px;
+    opacity: 1;
+}
+.Mot:hover{
+    width:500px;
+    height: 200px;
+    top:100px;
+    left: 20px;
+    position: absolute;
+    z-index: 3;
+}
+
+/*====================================*/
+.Container1Khoi2{
+
+}
+.Container1Khoi2Nen{
+    width:390px;
+    height:250px;
+    position: absolute;
+    top:170px;
+    left:545px;
+    z-index:3;
+}
+.Container1Khoi2Hang1{
+    width:300px;
+    height:30px;
+    position: absolute;
+    top:340px;
+    font-size:16px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi2Hang2{
+    width:300px;
+    height:30px;
+    position: absolute;
+    top:370px;
+    font-size:20px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi2Hang3{
+    width: 85px;
+    height: 2px;
+    position: absolute;
+    top: 395px;
+    left: 560px;
+    font-size: 40px;
+    background: #a06832;
+    z-index: 5;
+    border-radius: 2px;
+}
+/*================================*/
+.Container1Khoi3{
+
+}
+.Container1Khoi3Nen{
+    width:390px;
+    height:230px;
+    position: absolute;
+    top:440px;
+    left:545px;
+    z-index:3;
+}
+.Container1Khoi3Hang1{
+    width:300px;
+    height:50px;
+    position: absolute;
+    top:610px;
+    font-size:16px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi3Hang2{
+    width:300px;
+    height:50px;
+    position: absolute;
+    top:630px;
+    font-size:20px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi3Hang3{
+    width:95px;
+    height:2px;
+    position: absolute;
+    top:655px;
+    left:560px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:3;
+    border-radius:2px
+}
+.Container2{
+    width:100%;
+    height:640px;
+    position: absolute;
+    top:1580px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.NenContainer2{
+  width:470px;
+  height:500px;
+  position: absolute;
+  padding: 70px 10px;
+  z-index:3;
+}
+.Container2Khoi1{
+ width: 470px;
+ height: 450px;
+ position: absolute;
+ top:0px;
+ left: 20px;
+ z-index: 3;
+}
+.TieuDeContainer2Khoi1{
+  width:450px;
+  height:200px;
+   position: absolute;
+   top:150px;
+   font-size:30px;
+   color:white;
+   left:100px;
+   z-index:4;
+} 
+.ChanTieuDeContainer2Khoi1{
+   width: 150px;
+   height:3px;
+   position: absolute;
+    top:220px;
+    left:100px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:4;
+    border-radius:3px 
+}
+.Container2Khoi1NoiDung{
+ width:450px;
+ height:400px;
+ font-size:20px;
+ color:white;
+ position: absolute;
+ top:250px; 
+ left: 70px;
+ z-index: 4;  
+}
+.NutContainer2Khoi1{
+    width:150px;
+    height:30px;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    position:absolute;
+    background:#36373a;
+    top:490px;
+    left:180px;
+    z-index:5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Container2Khoi2{
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    top:70px;
+    left: 515px;
+    z-index: 3; 
+}
+/*==============================*/
+.Container3Khoi1{
+    width:960px;
+    height:700px;
+    background:#15191f;
+    position: absolute;
+    top:2270px;
+    left:0px;
+    z-index:3;
+}
+.NenContainer3Khoi1{
+     width:960px;
+    height:700px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:4;
+}
+.Container3Khoi1NoiDung1{
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    color:white;
+    font-size:40px;
+    top:200px;
+    left:320px;
+    z-index:5;
+}
+.Container3Khoi1NoiDung2{
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    color:white;
+    font-size:40px;
+    top:250px;
+    left:370px;
+    z-index:5;
+}
+.NutContainer3Khoi1{
+     width: 170px;
+    height: 30px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    background:#c57f3b;
+    font-size:25px;
+    top:360px;
+    left:370px;
+    z-index:5;
+    border-radius:5px;
+
+}
+.CuoiContainer3Khoi1{
+     width: 170px;
+    height: 30px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    background:#c57f3b;
+    font-size:25px;
+    top:650px;
+    left:370px;
+    z-index:5;
+    border-radius:5px;
+}
+/*=====================================*/
+
+.Container4{
+    width:100%;
+    height:640px;
+    position: absolute;
+    top:3050px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.Container4Khoi1{
+ width 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:60px;
+ z-index:5;
+}
+.ChuToContainer4Khoi1{
+ width: 200px;
+ height:40px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ display:block;
+ top:0px;
+ left:10px;
+ z-index:5;
+}
+.Facebook{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:5px;
+ z-index:5;
+}
+.Email{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:35px;
+ z-index:5;
+
+}
+.Twitter{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:65px;
+ z-index:5;
+}
+.In{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:95px;
+ z-index:5;
+}
+.Container4Khoi2{
+  width: 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:360px;
+ z-index:5;
+}
+.ChuToContainer4Khoi2{
+width: 200px;
+ height:40px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ top:0px;
+ left:30px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi1{
+ width: 200px;
+ height:100px;
+ font-size:15px;
+ color:white;
+ position:absolute;
+ padding: 50px 0px;
+ top:30px;
+ left:20px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi2{
+ width: 200px;
+ height:100px;
+ font-size:15px;
+ color:white;
+ position:absolute;
+ padding: 50px 0px;
+ top:90px;
+ left:40px;
+ z-index:5;
+}
+.Container4Khoi3{
+ width: 300px;
+ height:300px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ top:0px;
+ left:680px;
+ z-index:5;
+}
+.ChuToContainer4Khoi3{
+ width: 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:70px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi3{
+ width :300px;
+ height:300px;
+ position:absolute;
+ font-size:15px;
+ color:white;
+ top:100px;
+ left:750px;
+ z-index:5;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Nen{
+    width: 100%;
+    height: 3690px;
+    position:relative;
+    top:0px;
+    left: 0px;
+    z-index: 2;
+}
+.Nen1{
+    width: 100%;
+    height: 1100px;
+    opacity: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+}
+.Nen2{
+    width: 100%;
+    height: 2590px;
+    opacity: absolute;
+    top:1090px;
+    left: 0px;
+    z-index: 2;
+}
+.Left{
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    display:block;
+    top:0px;
+    left: 0px;
+    z-index: 6;
+}
+.logoLeft{
+    width: 250px;
+    height: 597px;
+    position: fixed;
+    display:block;
+    top:0px;
+    left: 0px;
+    z-index: 7;
+}
+.AnhLogoLeft{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    display:block;
+    top:100px;
+    left: 100px;
+    z-index: 7;
+}
+.MenuLeft{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    display:block;
+    top:230px;
+    left: 100px;
+    z-index: 7;
+}
+.MenuLeft ul{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+     text-align: left;
+}
+.MenuLeft ul li{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+}
+.MenuLeft ul li a{
+    color:white;
+    font-size:20px;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Container{
+    width: 960px;
+    height: 619px;
+    position: absolute;
+    display:block;
+    top:0px;
+    left: 320px;
+    z-index: 2;
+}
+.TieuDeContainer{
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top:140px;
+    left: 370px;
+    z-index: 2;
+}
+.TieuDeContainer{
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    display:block;
+    color:white;
+    font-size:40px;
+    top:90px;
+    line-height:60px;
+    left: 20px;
+    z-index: 2;
+}
+
+.NutContainer{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    background:#c57f3b;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    top:330px;
+    left: 20px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.NutContainer a {
+    text-align:center;
+}
+/*--------------------------------------------*/
+.Container1{
+    width:100%;
+    height:700px;
+    position: absolute;
+    top:800px 
+}
+.NenContainer1{
+    width:100%;
+    height:700px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.TieuDeContainer1{
+    width:100%;
+    height:60px;
+    position: absolute;
+    top:40px;
+    left:0px;
+    text-align:center;
+    font-size: 40px;
+    color:white;
+    z-index:5;
+}
+.GachTieuDeContainer1{
+    width:300px;
+    height:4px;
+    position: absolute;
+    top:95px;
+    left:330px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px
+}
+/*-----------------------------*/
+.Container1Khoi1{
+
+}
+.Container1Khoi1Nen{
+    width:500px;
+    height:500px;
+    position: absolute;
+    top:170px;
+    left:20px;
+    z-index:3;
+}
+.Container1Khoi1Hang1{
+    width:400px;
+    height:500px;
+    position: absolute;
+    top:560px;
+    font-size:16px;
+    left:50px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi1Hang2{
+    width:500px;
+    height:500px;
+    position: absolute;
+    top:590px;
+    font-size:20px;
+    left:50px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi1Hang3{
+    width:135px;
+    height:3px;
+    position: absolute;
+    top:620px;
+    left:50px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px
+}
+/*====================================*/
+.Container1Khoi2{
+
+}
+.Container1Khoi2Nen{
+    width:390px;
+    height:250px;
+    position: absolute;
+    top:170px;
+    left:545px;
+    z-index:3;
+}
+.Container1Khoi2Hang1{
+    width:300px;
+    height: 30px;
+    position: absolute;
+    top:340px;
+    font-size:16px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi2Hang2{
+    width:300px;
+    height: 30px;
+    position: absolute;
+    top:370px;
+    font-size:20px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi2Hang3{
+    width:80px;
+    height:3px;
+    position: absolute;
+    top:395px;
+    left:565px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px
+}
+/*================================*/
+.Container1Khoi3{
+
+}
+.Container1Khoi3Nen{
+    width:390px;
+    height:230px;
+    position: absolute;
+    top:440px;
+    left:545px;
+    z-index:3;
+}
+.Container1Khoi3Hang1{
+    width:300px;
+    height:50px;
+    position: absolute;
+    top:610px;
+    font-size:16px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi3Hang2{
+    width:300px;
+    height:50px;
+    position: absolute;
+    top:630px;
+    font-size:20px;
+    left:560px;
+    color:white;
+    z-index:3;
+}
+.Container1Khoi2Hang3{
+    width:85px;
+    height:2px;
+    position: absolute;
+    top: 395px;
+    left:560px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:5;
+    border-radius:2px;
+}
+.Container2{
+    width:100%;
+    height:640px;
+    position: absolute;
+    top:1580px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.NenContainer2{
+  width:470px;
+  height:500px;
+  position: absolute;
+  padding: 70px 10px;
+  z-index:3;
+}
+.Container2Khoi1{
+ width: 470px;
+ height: 450px;
+ position: absolute;
+ top:0px;
+ left: 20px;
+ z-index: 3;
+}
+.TieuDeContainer2Khoi1{
+  width:450px;
+  height:200px;
+   position: absolute;
+   top:150px;
+   font-size:30px;
+   color:white;
+   left:100px;
+   z-index:4;
+} 
+.ChanTieuDeContainer2Khoi1{
+   width: 150px;
+   height:3px;
+   position: absolute;
+    top:220px;
+    left:100px;
+    font-size: 40px;
+    background:#a06832;
+    z-index:4;
+    border-radius:3px 
+}
+.Container2Khoi1NoiDung{
+ width:450px;
+ height:400px;
+ font-size:20px;
+ color:white;
+ position: absolute;
+ top:250px; 
+ left: 70px;
+ z-index: 4;  
+}
+.NutContainer2Khoi1{
+    width:150px;
+    height:30px;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    position:absolute;
+    background:#36373a;
+    top:490px;
+    left:180px;
+    z-index:5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Container2Khoi2{
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    top:70px;
+    left: 515px;
+    z-index: 3; 
+}
+/*==============================*/
+.Container3Khoi1{
+    width:960px;
+    height:700px;
+    background:#15191f;
+    position: absolute;
+    top:2270px;
+    left:0px;
+    z-index:3;
+}
+.NenContainer3Khoi1{
+     width:960px;
+    height:700px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:4;
+}
+.Container3Khoi1NoiDung1{
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    color:white;
+    font-size:40px;
+    top:200px;
+    left:320px;
+    z-index:5;
+}
+.Container3Khoi1NoiDung2{
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    color:white;
+    font-size:40px;
+    top:250px;
+    left:370px;
+    z-index:5;
+}
+.NutContainer3Khoi1{
+     width: 170px;
+    height: 30px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    background:#c57f3b;
+    font-size:25px;
+    top:360px;
+    left:370px;
+    z-index:5;
+    border-radius:5px;
+
+}
+.CuoiContainer3Khoi1{
+     width: 170px;
+    height: 30px;
+    position:absolute;
+    color:white;
+    text-align:center;
+    background:#c57f3b;
+    font-size:25px;
+    top:650px;
+    left:370px;
+    z-index:5;
+    border-radius:5px;
+}
+/*=====================================*/
+
+.Container4{
+    width:100%;
+    height:400px;
+    position: absolute;
+    top:3050px;
+    left:0px;
+    background:#22252a;
+    z-index:3;
+}
+.Container4Khoi1{
+ width: 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:60px;
+ z-index:5;
+}
+.ChuToContainer4Khoi1{
+ width: 200px;
+ height:40px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ display:block;
+ top:0px;
+ left:10px;
+ z-index:5;
+}
+.Facebook{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:5px;
+ z-index:5;
+}
+.Email{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:35px;
+ z-index:5;
+
+}
+.Twitter{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:65px;
+ z-index:5;
+}
+.In{
+ width: 25px;
+ height:25px;
+ position:absolute;
+ top:30px;
+ left:95px;
+ z-index:5;
+}
+.Container4Khoi2{
+  width: 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:360px;
+ z-index:5;
+}
+.ChuToContainer4Khoi2{
+width: 200px;
+ height:40px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ top:0px;
+ left:30px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi1{
+ width: 200px;
+ height:100px;
+ font-size:15px;
+ color:white;
+ position:absolute;
+ padding: 50px 0px;
+ top:30px;
+ left:20px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi2{
+ width: 200px;
+ height:100px;
+ font-size:15px;
+ color:white;
+ position:absolute;
+ padding: 50px 0px;
+ top:90px;
+ left:40px;
+ z-index:5;
+}
+.Container4Khoi3{
+ width: 300px;
+ height:300px;
+ position:absolute;
+ font-size:20px;
+ color:white;
+ top:0px;
+ left:680px;
+ z-index:5;
+}
+.ChuToContainer4Khoi3{
+ width: 300px;
+ height:300px;
+ position:absolute;
+ top:50px;
+ left:70px;
+ z-index:5;
+}
+.ChuNhoContainer4Khoi3{
+ width :300px;
+ height:300px;
+ position:absolute;
+ font-size:15px;
+ color:white;
+ top:100px;
+ left:750px;
+ z-index:5;
+}

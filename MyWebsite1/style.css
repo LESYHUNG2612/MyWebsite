@@ -28,6 +28,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     margin-left:25px;
+    /*bo gach chan */
+    text-decoration: none;
 }
 .headerTop .MenuRight{
     width: 400px;

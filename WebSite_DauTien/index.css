@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(19, 235, 163, 0.24);
+    font-family: "helvetiva", Helvetica, Arial,sans-serif;
+    font-style: 13px;
+    width: 1000 px;
+    margin: 0px auto;
+  }
+  .header{
+    width: 200px;
+    height: 150px;
+  }
+  h1 {
+    text-align: center;
+    font-family: segoe ui light;
+    color: rgba(14, 13, 13, 0.932);
+  }
+  h2 {
+    text-align: left;
+    font-family: segoe ui light;
+    color: rgb(241, 8, 8);
+  }
+  ol {
+    text-align: left;
+    color: rgb(9, 25, 245);
+    font-family: segoe ui light;
+  }
+  .Contenner ul li{
+    display: inline-block;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: aqua;
+    transition: all 0,5s;
+  }
+  a:visited {
+    color: rgb(8, 1, 15);
+  }
+  a:hover {
+    background-color: rgb(16, 238, 35);
+    color: rgb(78, 231, 6);
+  }
+  a:active {
+    background-color: rgb(11, 238, 105);
+    color: red;
+  }

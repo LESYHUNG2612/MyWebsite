@@ -1,0 +1,669 @@
+* {
+    padding: 0px;
+    margin : 0px;
+}
+.Top {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 1;
+    background-color: #2c3941;
+    color: gray;
+    font-family: inherit;
+}
+.LeftTop {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top : 10px;
+    left : 150px;
+    z-index: 2;
+}
+.LeftTop1 {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+}
+.Directed {
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    top : 22px;
+    z-index: 3;
+
+}
+.LeftTopTieuDe1 {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top:  15px;
+    left: 25pX;
+    z-index: 3;
+}
+.LeftTop2 {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 175px;
+    z-index: 2;
+}
+.Phone { 
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    top : 22px;
+    z-index: 3;
+}
+.LeftTopTieuDe2 {
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top:  15px;
+    left: 25pX;
+    z-index: 3;
+
+}
+.logo {
+    width :200px;
+    height: 90px;
+    position: absolute;
+    left: 525px;
+    z-index: 2;
+}
+.RightTop {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top :10px;
+    left: 770px;
+    z-index: 2;
+
+}
+.RightTop1 {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top : 2px;
+    z-index: 2;
+}
+.Login {
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    left :45px;
+    top : 22px;
+    z-index: 3;
+}
+.RightTopTieuDe1 {
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top:  15px;
+    left: 75pX;
+    z-index: 3;
+
+}
+.RightTop2
+{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 175px;
+    z-index: 2;
+}
+.Shop {
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    left :20px;
+    top : 22px;
+    z-index: 3;
+
+}
+.RightTopTieuDe2 {
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top:  15px;
+    left: 50pX;
+    z-index: 3;
+}
+#money {
+    color: white;
+}
+.menu
+{   width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 90px; 
+    z-index: 2;
+}
+.menu ul {
+    width: 900px;
+    height: 65px;
+    position: absolute;
+    top : 5px;
+    left: 250px;
+    z-index: 2;
+
+}
+.menu ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color :black;
+}
+a:hover {
+    color :#B0C4DE;
+}
+.Box1 {
+    width: 100%;
+    position: absolute;
+    height: 500px;
+}
+.Picture1 {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+.content1{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top : 300px;
+    left: 500px;
+    z-index: 3;
+    color : white;
+    font-size: 50px;
+}
+.c1 {
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    font-size: 60px;
+    top: 250px;
+    left: 380px;
+    z-index: 3;
+    color :white;
+    text-align: center;
+}
+.c2 {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    top: 320px;
+    left: 430px;
+    z-index: 3;
+    text-align: center;
+    color :white;
+}
+.c2 a {
+    text-decoration: none;
+    color: white;
+}
+.c2 :hover {
+    color : orange;
+}
+.menu :hover {
+    color:#B0C4DE ;
+}
+.c3 {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    font-size: 25px;
+    top: 550px;
+    left : 425px;
+    z-index: 3;
+    color: red;
+    text-align: center;
+}
+.c3 a{
+    font-size: 40px;
+    color: black;
+}
+.Picture2 {
+    width: 1025px;
+    height: 400px;
+    position: absolute;
+    top :675px;
+    left : 125px;
+    cursor: pointer;
+}
+.c4 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+}
+.c5 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    left: 350px;
+
+}
+.c6 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    left: 700px;
+}
+.namept2 {
+    width: 1000px;
+    height: 50x;
+    position: absolute;
+    top : 950px;
+    left: 135px;
+    line-height: 45px;
+
+}
+.name1 {
+    width: 295px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    font-size: 27px;
+    
+
+}
+.name2 {
+    width: 295px;
+    height: 50px;
+    position: absolute;
+    left: 355px;
+    text-align: center;
+    font-size: 27px;
+
+}
+.name3 {
+    width: 295px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    left: 705px;
+}
+.name1 a{
+    font-size: 16px;
+    color: gray;
+}
+.name2 a{
+    font-size :16px;
+    color: gray;
+}
+.name3 a{
+    font-size: 16px;
+    color: gray;
+}
+.detail1
+{
+    width: 1000px;
+    height: 35px;
+    position: absolute;
+    top: 1050px;
+    left: 135px;
+}
+.detail1 a{
+    color:white;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+.dt1 {
+    width: 120px;
+    height:35px;
+    position:absolute;
+    text-align: center;
+    left: 90px;
+    background-color: #2c3941;
+    color: white;
+}
+.dt2 {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    left: 435px;
+    color: white;
+    background-color: #2c3941;
+}
+.dt3 {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 790px;
+    text-align: center;
+    background-color: #2c3941;
+    color: white;
+}
+.detail1 :hover{
+    background-color: #B0C4DE;
+}
+.Picture3 {
+
+    width: 1025px;
+    height: 400px;
+    position: absolute;
+    top: 1140px;
+    left : 125px;
+    cursor: pointer;
+}
+.c7 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+
+.c8 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    left: 350px;
+}
+.c9 {
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    left: 700px;
+}
+.namept3 {
+
+    width: 1000px;
+    height: 50x;
+    position: absolute;
+    top : 1425px;
+    left: 135px;
+
+}
+.name4 {
+    width: 295px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    font-size: 27px;
+}
+.name5 {
+    width: 295px;
+    height: 50px;
+    position: absolute;
+    left: 355px;
+    text-align: center;
+    font-size: 27px;
+
+}
+.name6 {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    left: 675px;
+}
+.name7 {
+    width: 295px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+    line-height: 25px;
+
+}
+.name8 {
+    width: 295px;
+    height: 40px;
+    position: absolute;
+    top : 60px;
+    text-align: center;
+    font-size: 17px;
+    left: 355px;
+    color: gray;
+    line-height: 25px;
+
+}
+.name9 {
+    width: 295px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    font-size: 17px;
+    left: 705px;
+    color: gray;
+    line-height: 25px;
+}
+.detail2 {
+    width: 1000px;
+    height: 35px;
+    position:absolute;
+    top: 1555px;
+    left: 135px;
+}
+.dt4 {
+    width: 120px;
+    height:35px;
+    position:absolute;
+    text-align: center;
+    left: 90px;
+    background-color: #2c3941;
+    color: white;
+}
+.dt5 {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    left: 435px;
+    color: white;
+    background-color: #2c3941;
+}
+.dt6 {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 790px;
+    text-align: center;
+    background-color: #2c3941;
+    color: white;
+}
+.detail2 a{
+    color:white;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+.detail2 :hover {
+    background-color: #B0C4DE;
+}
+.video {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 1650px;
+    background-color: red;
+}
+.video1 {
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 75px;
+    left: 475px;
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.video2 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left:375px;
+    z-index: 2;
+}
+.imgvideo {
+    width: 100%;
+    height: 750px;
+    position: absolute;
+}
+.video1 a{
+    font-size: 22px;
+    color: rgb(202, 91, 0);
+}
+.video3 {
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top :540px;
+    left: 375px;    
+    text-align: center;
+    font-size: 17px;
+    color: rgb(189, 184, 184);
+    line-height: 30px;
+}
+.video4 {
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    top: 650px;
+    left: 500px;
+    text-align: center;
+}
+.video4 a {
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    top : 10px;
+    left: 0px;
+    z-index: 2;
+    
+}
+.video4:hover{
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    background-color:rgb(119, 47, 6);
+    top: 650px;
+    left: 500px;
+    text-align: center;  
+}
+.footer {
+    width: 100%;
+    height: 325px;
+    position: relative;
+    top: 1630px;
+    background-color: #2c3941;
+    z-index: 1;
+}
+.logochan {
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top : 125px;
+    left: 180px;
+}
+.menufooter {
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    top : 100px;
+    left : 350px;
+    color: white;
+}
+.aboutus {
+    position: absolute;
+    left :50px;
+}
+.links {
+    position: absolute;
+    left :350px;
+}
+.contactus {
+    position: absolute;
+    left: 550px;
+}
+.aboutus1 {
+    height: 100px;
+    color :#97a6b9;
+    position:absolute;
+    line-height: 25px;
+    top: 140px;
+    left:400px;
+    color: #8c9398;
+}
+.links1 {
+    width: 200px;
+    height:100px;
+    position: relative;
+    top :140px;
+    left : 680px;
+    color: #8c9398;
+    line-height: 25px;
+}
+.links1 a{
+    color: #8c9398;
+    text-decoration: none;
+}
+.links2 {
+    width: 75px;
+    height: 60px;
+    position: absolute;   
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+}
+.links1, li :hover {
+    color: white;
+}
+.links3 {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top : 0px;
+    z-index :2;
+}
+.contactus1
+{
+    width: 200px;
+    line-height: 25px;
+    position: absolute;
+    top :140px;
+    left: 900px;
+    color: #8c9398;
+}
+.contactus1 :hover
+{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+

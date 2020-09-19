@@ -123,20 +123,129 @@
 /*====================*/
 .Container{
     width: 100%;
-    height: 800px;
+    height: 700px;
     position: relative;
     top: 150px;
     left: 0px;
     z-index: 2;
 }
-.NenContainer{
+.anhslide{
     width: 100%;
-    height: 800px;
-    position: absolute;
+    height: 700px;
+    position: relative;
     top: 0px;
     left: 0px;
     z-index: 2;
+    /*ngoai vung nay se bi an di*/
+    overflow: hidden;
+} 
+.NenSlide{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+} 
+/*===============================*/
+.Slide1{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    /*---------*/
+    opacity: 0;
+    visibility: hidden;
 }
+.prev{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 5;
+}
+.next{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    z-index: 5;
+}
+/*hieu ung*/
+.Slide1.active{
+    opacity: 1;
+    visibility: visible;
+}
+.Slide1.BienMatBenTrai{
+    animation: BienMatBenTrai 1s forwards;
+}
+@-webkit-keyframes BienMatBenTrai{
+    0%{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.Slide1.DiVaoBenPhai{
+    animation: DiVaoBenPhai 1s forwards;
+}
+@-webkit-keyframes DiVaoBenPhai{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/*================*/
+.Slide1.BienMatBenPhai{
+    animation: BienMatBenPhai 1s forwards;
+}
+@-webkit-keyframes BienMatBenPhai{
+    0%{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.Slide1.DiVaoBenTrai{
+    animation: DiVaoBenTrai 1s forwards;
+}
+@-webkit-keyframes DiVaoBenTrai{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+/*=======================================*/
+
 .TieuDeContainer{
     width: 800px;
     height: 300px;
